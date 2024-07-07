@@ -4,6 +4,6 @@ As the name says, this software is built by Cisco and can be used to practice Ne
 It can be downloaded from "https://www.packettracernetwork.com/download/download-packet-tracer.html"
 
 ## Assignments
-1.simulate a ping request from onenetwok to another network
-2.simulate for network with DHCP server, DNS server and web server
-3.design a system for assigning IP address automatically to host on a network
+1.simulate a ping request from onenetwok to another network <br/>
+2.simulate for network with DHCP server, DNS server and web server<br/>
+3.design a system for assigning IP address automatically to host on a network<br/>
