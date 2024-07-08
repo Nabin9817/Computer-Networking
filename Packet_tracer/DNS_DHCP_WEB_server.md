@@ -1,10 +1,9 @@
 ## Question: Simulate a network with DHCP server, DNA server and Web server<br>
 Answer :<br/>
 
-To simulate the network, we have created a network structure as shown below. It consists of a 1841 Router which has connection with two network. The left side of the router(Fa0/0) is connected to the Switch1, which is further connected to three different servers and a PC. We assign IP address of 192.168.2.1 to this innterface. The three different servers are DNS server, DHCP server and web server. The IP address, subnet mask, default gateway and address of DNS server is configured in these servers as shown in the figure. <br/>
+To simulate the network, we have created a network structure as shown below. It consists of a 1841 Router which has connection with two network. The left side of the router(Fa0/0) is connected to the Switch1, which is further connected to three different servers and a PC. We assign IP address of 192.168.2.1 to this interface. The three different servers are DNS server, DHCP server and web server. The IP address, subnet mask, default gateway and address of DNS server is configured in these servers as shown in the figure. <br/>
 
-
-![topology of dns web and dhcp server](https://github.com/Nabin9817/Computer-Networking/assets/149253579/181a8711-812e-40bf-8075-d04edca12d25)
+![topology of dns dhcp and web server](https://github.com/Nabin9817/Computer-Networking/assets/149253579/f0a80f20-fed1-45be-8cb6-755157a774f0)
 
 To enable DHCP, we have created two pool in the DHCP server: serverPool and pcPool. In the serverPool, we have given the address of default gateway as 192.168.2.1 and address of DNS server as 192.168.2.1. The start IP address for this pool is configured to 192.168.2.5. Similarly, in the pcPool we have configured start IP address to 192.168.1.5 and default gateway to 192.168.1.1.<br/>
 Now we have configured the DNS server. In the DNS option of services tab, we added the name of web as “yamprasad.com” and give the address to 192.168.2.4 which will map "yamprasad.com" to this IP.<br/>
