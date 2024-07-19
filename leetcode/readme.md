@@ -1,14 +1,12 @@
-# Assignments<br/>
+# Assignments:
 
-## 1. On leetcode find the problem that can be solved using dijkstra algorithm using programming language of your choice.
+    1.  On leetcode find the problem that can be solved using dijkstra algorithm using programming language of your choice.
 
-## 2. Using Bellman Ford of first question
+    2.  Using Bellman Ford of first question
 
-## 3. For the first two question make a table that has every update for all the variables that you used.
+    3.  For the first two question make a table that has every update for all the variables that you used.
 
-### Dijkstra's Algorithm
-
-Implement Dijkstra's shortest path algorithm.
+## Leet Code Problem
 
 Given a weighted, directed graph, and a starting vertex, return the shortest distance from the starting vertex to every vertex in the graph.
 
@@ -22,8 +20,6 @@ Note: If a vertex is unreachable from the source vertex, the shortest path dista
 Example 1:
 
 ![alt text](image.png)
-
-Dijkstra's Algorithm
 
 Input:
 n = 5
