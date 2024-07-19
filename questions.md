@@ -1,0 +1,9 @@
+-   what layer controls the wire?
+-   How can you tell one device apart from other at this layer?
+-   How can you group the devices together?
+-   what are the private IPs, subnet masks, broadcast addr, range?
+-   design a system to name IP addresses.
+-
+-   In the preferred programming language of your choice, write a web application that allows you to upload a file. Upload a file of minimum 10MB size. Capture the upload in wireshark. In your wireshark capture, follow the TCP stream to inspect connection initiation, file transfer and connection termination. (end of transport layer)
+-   Capture packets while logging into a website. Detect packets sent, and the security used.
+-   Capture packets while sending an email. Discuss the packet sent.
