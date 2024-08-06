@@ -6,7 +6,7 @@ It can be downloaded from "https://www.packettracernetwork.com/download/download
 
 ## Assignments
 
-    1. simulate a ping request from one network to another network.
-    2. simulate for network with DHCP server, DNS server and web server.
-    3. design a system for assigning IP address automatically to host on a network.
-    4.
+    1. Simulate a ping request from one network to another network.
+    2. Design a system to name IP addresses.
+    3. Design a system for assigning IP address automatically to host on a network.
+    4. simulate for network with DHCP server, DNS server and web server.
