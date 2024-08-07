@@ -1,5 +1,9 @@
 # Q) What happens when you type google.com on the browser and hit enter?
 
+When we type "google.com" into my web browser and press Enter, a complex series of events occurs to display the Google homepage. This process can be broken down into several key stages:
+
+![alt text](google_diagram.jpg)
+
 ### The Initiation: DNS Request
 
 Our journey begins with a Domain Name System (DNS) request. The browser seeks to translate the human-friendly domain name www.google.com to an IP address, the language of computers. A query is sent to a DNS server, which acts like a phonebook for the internet, fetching the corresponding IP address for Google's server.
@@ -35,3 +39,5 @@ To fulfill your request, the application server might need to fetch or store dat
 ### The Grand Finale: Rendering
 
 The HTTP response makes its way back through the channels, reaching your browser which then renders the HTML, CSS, and JavaScript to display the webpage we all know and love as Google.
+
+![alt text](google_flow.png)
