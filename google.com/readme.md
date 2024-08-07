@@ -1,6 +1,6 @@
 # Q) What happens when you type google.com on the browser and hit enter?
 
-## When we type "google.com" into my web browser and press Enter, a complex series of events occurs to display the Google homepage.
+## When we type "google.com" into our web browser and press Enter, a complex series of events occurs to display the Google homepage.
 
 ![alt text](google_diagram.jpg)
 
