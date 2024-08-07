@@ -129,6 +129,7 @@ data securely. They exchange encryption methods and keys, and then set up a secu
 channel to protect all information exchanged between them. This ensures that data
 sent between your browser and the website remains private and cannot be easily
 intercepted or understood by unauthorized parties.
+</br></br>
 
 ## Firewall Inspection (Network Layer)
 
@@ -141,6 +142,7 @@ There are two primary types of security policies that a firewall employs to exam
 
 1. Policies that allow or prohibit traffic based on the origin and destination of the request. For example, a firewall may be programmed to block all traffic from specific countries or to allow only specific IP addresses to access the network.
 2. Policies that allow or prohibit traffic based on the type of traffic. For example, a firewall may be programmed to block all traffic on certain ports (such as those used by malware) or to allow only certain types of traffic(such as HTTP or HTTPS)
+   </br></br>
 
 ## Load Balancer Distribution (Application and Transport Layer)
 
@@ -158,6 +160,7 @@ optimal Google web server and routes your connection to that location.
 This allows Google to efficiently spread the work across their network of servers.
 The load balancer also improves redundancy and failover since requests can be shifted
 from a downed server to a functioning one.
+</br></br>
 
 ## Web Server Processes Request (Application Layer)
 
@@ -168,6 +171,7 @@ After load balancing, the web server takes the stage, handling the HTTP request.
 -   **Static Content:** Retrieves static resources (HTML, CSS, JavaScript, images) required to build the webpage.
 -   **Dynamic Content:** May generate dynamic content based on user-specific
     data or interactions.
+    </br></br>
 
 ## Application Server Interaction (Application Layer)
 
@@ -178,12 +182,14 @@ The application server is the brain behind the operation, executing the necessar
 -   **Application Server:** Executes server-side scripts (e.g., PHP, Python) to
     process requests and interact with databases.
 -   **Database Queries:** Retrieves relevant data from databases (e.g., user preferences, search results).
+    </br></br>
 
 ## Web Server Sends Response (Application Layer)
 
 **1. Response Preparation:** Constructs an HTTP response containing the fully rendered webpage.
 **2. Optimization:** Compresses resources (e.g., minifies JavaScript, compresses
 images) for efficient data transfer.
+</br></br>
 
 ## Browser Receives and Renders Page (Application Layer)
 
@@ -204,6 +210,7 @@ it interactive with features like search and animations. It adjusts the layout a
 and finally displays everything on your screen. This process is secured with HTTPS
 encryption for privacy and optimized for speed using techniques like minifying files and
 using CDNs
+</br></br>
 
 ## Cookies and Local Storage (Application Layer)
 
@@ -211,8 +218,10 @@ using CDNs
 across visits to google.com.
 
 **2. Local Storage:** Caches static resources locally for faster load times during repeat visits.
+</br></br>
 
 ![alt text](google_flow.png)
+</br>
 
 ## Conclusion
 
