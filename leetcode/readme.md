@@ -19,7 +19,7 @@ Note: If a vertex is unreachable from the source vertex, the shortest path dista
 
 Example 1:
 
-![alt text](image.png)
+<img src="image.png" width="50%">
 
 Input:
 n = 5
