@@ -51,10 +51,10 @@ connection to the retrieved IP address of google.com.
 
 **2. Three-Way Handshake:**
 
--   SYN (Synchronize): Browser sends a SYN packet to Google’s server.
--   SYN-ACK (Synchronize-Acknowledgment): Google’s server responds with
+-   **SYN (Synchronize):** Browser sends a SYN packet to Google’s server.
+-   **SYN-ACK (Synchronize-Acknowledgment):** Google’s server responds with
     SYN-ACK packet.
--   ACK (Acknowledgment): Browser sends an ACK packet, establishing the
+-   **ACK (Acknowledgment):** Browser sends an ACK packet, establishing the
     TCP connection.
 
 <img src="3way-tcp-cnnection.jpg" alt="description" width="50%">
@@ -86,8 +86,7 @@ robust and error-checked data exchange between client and server in networked en
 -   **ACK (Acknowledgement) Packet:**</br>
     Finalization: Our Computer responds to the SYN-ACK packet with an ACK packet,
     acknowledging the server’s sequence number by incrementing it by one.This ACK
-    packet completes the handshake, confirming that both sides are ready to start data
-    transmission.
+    packet completes the handshake, confirming that both sides are ready to start data transmission.
 
 ### Post Handshake: Data Transmission
 
@@ -106,7 +105,7 @@ sides agree to close the connection.
 
 -   **FIN Packet:** One side (our computer) sends a FIN packet to indicate it wants
     to close the connection.
--   ACK Packet: The other side (the Google server) acknowledges the FIN
+-   **ACK Packet:** The other side (the Google server) acknowledges the FIN
     packet.
 -   **FIN Packet:** The server sends its own FIN packet.
 -   **ACK Packet:** Your computer acknowledges the server’s FIN packet.
@@ -131,7 +130,7 @@ sent between your browser and the website remains private and cannot be easily
 intercepted or understood by unauthorized parties.
 </br></br>
 
-## Firewall Inspection (Network Layer)
+## Firewall Inspection
 
 **1. Firewall Check:** Request passes through any firewalls, which inspect and filter
 traffic based on security policies. A firewall is a security system that regulates and monitors incoming and outgoing
@@ -140,8 +139,8 @@ When you type a URL like “google.com” into your browser, the request that yo
 browser makes to Google’s server passes through the firewall en route. The firewall examines the incoming request to ensure that it is permitted based on its security policies.
 There are two primary types of security policies that a firewall employs to examine incoming requests:
 
-1. Policies that allow or prohibit traffic based on the origin and destination of the request. For example, a firewall may be programmed to block all traffic from specific countries or to allow only specific IP addresses to access the network.
-2. Policies that allow or prohibit traffic based on the type of traffic. For example, a firewall may be programmed to block all traffic on certain ports (such as those used by malware) or to allow only certain types of traffic(such as HTTP or HTTPS)
+1. Policies that allow or prohibit traffic _based on the origin and destination of the request_. For example, a firewall may be programmed to block all traffic from specific countries or to allow only specific IP addresses to access the network.
+2. Policies that allow or prohibit traffic _based on the type of traffic_. For example, a firewall may be programmed to block all traffic on certain ports (such as those used by malware) or to allow only certain types of traffic(such as HTTP or HTTPS)
    </br></br>
 
 ## Load Balancer Distribution (Application and Transport Layer)
